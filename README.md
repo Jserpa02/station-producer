@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # Weather Station — Sistema distribuido de ingesta meteorológica
 
 ## Arquitectura
