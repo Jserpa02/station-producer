@@ -83,7 +83,7 @@ LIMIT 20;
 | `POSTGRES_HOST`     | Host de PostgreSQL                 | `postgres`                                  |
 | `POSTGRES_DB`       | Nombre de la base de datos         | `weatherdb`                                 |
 | `POSTGRES_USER`     | Usuario de PostgreSQL              | `weather`                                   |
-| `POSTGRES_PASSWORD` | Contraseña de PostgreSQL           | `weather123`                                |
+| `POSTGRES_PASSWORD` | Contraseña de PostgreSQL           | `weather`                                |
 
 ---
 
