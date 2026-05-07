@@ -70,22 +70,6 @@ ORDER BY timestamp DESC
 LIMIT 20;
 ```
 
----
-
-## Variables de entorno
-
-| Variable            | Descripción                        | Default                                     |
-|---------------------|------------------------------------|---------------------------------------------|
-| `STATION_IDS`       | IDs separados por coma             | `ST-001,ST-002,ST-003`                      |
-| `INTERVAL_SECONDS`  | Segundos entre ciclos              | `5.0`                                       |
-| `RANDOM_SEED`       | Semilla para reproducibilidad      | _(vacío = aleatorio)_                       |
-| `RABBITMQ_URL`      | URL de conexión AMQP               | `amqp://guest:guest@rabbitmq:5672/`         |
-| `POSTGRES_HOST`     | Host de PostgreSQL                 | `postgres`                                  |
-| `POSTGRES_DB`       | Nombre de la base de datos         | `weatherdb`                                 |
-| `POSTGRES_USER`     | Usuario de PostgreSQL              | `weather`                                   |
-| `POSTGRES_PASSWORD` | Contraseña de PostgreSQL           | `weather`                                |
-
----
 
 ## Ejemplo de mensaje JSON
 
